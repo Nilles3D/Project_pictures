@@ -1,0 +1,20 @@
+
+18:06:02	----------
+18:06:03	remoteCall begin
+18:06:16	Stopped for a picture of ERR:TIME at [0,0:2.145] 
+18:06:23	Stopped for a picture of ERR:LIMIT at [0,0:5.402] 
+18:06:30	Stopped for a picture of ['P0501'] at [0,0:0.666] 
+18:06:34	Saving image of corn 501 (0, 0).jpg
+18:06:34	 This corn is past its germination date
+18:06:37	 it has an ndvi=0.008979032657046814
+18:06:45	Stopped for a picture of ERR:TIME at [0,1:2.81] 
+18:06:51	Stopped for a picture of ERR:LIMIT at [0,1:5.788] 
+18:07:13	Stopped for a picture of ['P0201'] at [1,0:1.667] 
+18:07:18	Saving image of kale 201 (1, 0).jpg
+18:07:18	 This kale is past its germination date
+18:07:21	 it has an ndvi=0.00648480042329032
+18:07:25	Stopped for a picture of ['P0301'] at [1,1:2.626] 
+18:07:35	Stopped for a picture of ERR:LIMIT at [1,2:4.884] 
+18:07:48	Stairs homed in -9.09 sec.
+18:08:04	remoteCall end
+18:08:04	emailOne begin

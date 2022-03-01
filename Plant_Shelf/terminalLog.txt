@@ -1,0 +1,466 @@
+2021-03-02
+18:06:02
+
+----SQL PLANT----
+Basics table exists
+History table exists
+tables made
+
+----HARDWARE----
+Homing motor 0
+Motor 0 going b, rate 1, pos 0.0
+Motor 0 going s, rate 1, pos -0.0
+Motor is home
+Motor position as calculated: -0.0
+0.0 seconds to home Stairs
+
+Beginning of finding shelf0
+
+----REMOTE STAIRS----
+Homing motor 1
+Motor 1 going b, rate 1, pos 0.0
+Motor 1 going s, rate 1, pos -0.0
+Motor is home
+Motor position as calculated: -0.0
+Motor 0 going s, rate 1, pos 0.0
+
+Starting dynamic QR search
+getCenter= True
+Motor 0 going f, rate 1, pos 0.0
+Motor 0 going s, rate 1, pos 3.77
+Sending back:
+  qFound: ['S0000']
+  motSpeed: 1
+  walk2: 3.77
+Motor 0 going l, rate 1, pos 3.77
+
+----REMOTE WALK----
+
+----HARDWARE----
+Homing motor 1
+Motor 1 going b, rate 1, pos 0.0
+Motor 1 going s, rate 1, pos -0.0
+Motor is home
+Motor position as calculated: -0.0
+
+
+Starting finder cycle 0 on shelf 0
+
+----QR CODES----
+Motor 1 going s, rate 1, pos 0.0
+
+Starting dynamic QR search
+getCenter= False
+Motor 1 going f, rate 0.18, pos 0.0
+Confirm: leaving  ['S0000']
+Confirm: leaving  ['S0000']
+Motor 1 going s, rate 1, pos 2.145
+Sending back:
+  search time exceeded
+  motSpeed: 0.18
+  walk2: 2.145
+Received:
+  qrDynamic timeout trigger tripped
+Walk speed +increased to 0.198 after timeout
+
+
+Starting finder cycle 1 on shelf 0
+
+----QR CODES----
+Motor 1 going s, rate 1, pos 2.145
+
+Starting dynamic QR search
+getCenter= False
+Motor 1 going f, rate 0.2, pos 2.145
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Motor 1 going f, rate 0.45, pos 3.4
+Walk speed increased to  0.45  near end of shelf.
+Motor 1 going s, rate 1, pos 5.402
+Sending back:
+  limit hit
+  motSpeed: 0.45
+  walk2: 5.402
+Received:
+  returning to home after limit switch hit
+
+----HARDWARE----
+Homing motor 1
+Motor 1 going b, rate 1, pos 5.402
+Motor 1 going s, rate 1, pos 2.332
+Motor is home
+Motor position as calculated: 2.33
+
+----REMOTE WALK----
+
+----HARDWARE----
+Homing motor 1
+Motor 1 going b, rate 1, pos 0.0
+Motor 1 going s, rate 1, pos -0.0
+Motor is home
+Motor position as calculated: -0.0
+
+
+Starting finder cycle 0 on shelf 0
+
+----QR CODES----
+Motor 1 going s, rate 1, pos 0.0
+
+Starting dynamic QR search
+getCenter= False
+Motor 1 going f, rate 0.18, pos 0.0
+Confirm: leaving  ['S0000']
+Confirm: leaving  ['S0000']
+Confirm: leaving  ['S0000']
+Motor 1 going s, rate 1, pos 0.666
+Sending back:
+  qFound: ['P0501']
+  motSpeed: 0.18
+  walk2: 0.666
+
+----CAMERA----
+
+New image going to /home/an/Documents/PlantShelf/daily/2021-03-02/qr [0,0:0.666]
+New image saved to /home/an/Documents/PlantShelf/daily/2021-03-02/qr [0,0:0.666].jpg
+
+----QR CODES----
+Starting static QR search
+P0501 (976,563)
+Centered items ['P0501']
+
+----REMOTE----
+
+Analyzing P0501
+
+----ANALYZE----
+Analyzing 0 0 P0501 /home/an/Documents/PlantShelf/daily/2021-03-02/qr [0,0:0.666].jpg
+
+----SQL PLANT----
+Updating P0501 at (0, 0)
+['5000', 'corn', '96', '5']
+plantSpot= 501
+oldName= corn
+
+----CAMERA----
+
+Calculating NDVI
+/home/an/Documents/PlantShelf/daily/2021-03-02/corn 501 (0, 0) mask 120.jpg
+
+Masking image /home/an/Documents/PlantShelf/daily/2021-03-02/corn 501 (0, 0).jpg
+NDVI = 0.01
+/home/an/Documents/PlantShelf/daily/2021-03-02/corn 501 (0, 0) ndvi 120 8.jpg
+
+----SQL PLANT----
+datArr= [49, 501, '2021-03-02', 0.009]
+
+Making history: (49, 501, '2021-03-02', 0.009)
+
+
+Starting finder cycle 1 on shelf 0
+
+----QR CODES----
+Motor 1 going s, rate 1, pos 0.666
+
+Starting dynamic QR search
+getCenter= False
+Motor 1 going f, rate 0.18, pos 0.666
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Motor 1 going s, rate 1, pos 2.81
+Sending back:
+  search time exceeded
+  motSpeed: 0.18
+  walk2: 2.81
+Received:
+  qrDynamic timeout trigger tripped
+Walk speed +increased to 0.198 after timeout
+
+
+Starting finder cycle 2 on shelf 0
+
+----QR CODES----
+Motor 1 going s, rate 1, pos 2.81
+
+Starting dynamic QR search
+getCenter= False
+Motor 1 going f, rate 0.2, pos 2.81
+Confirm: leaving  ['P0501']
+Confirm: leaving  ['P0501']
+Motor 1 going f, rate 0.45, pos 3.403
+Walk speed increased to  0.45  near end of shelf.
+Motor 1 going s, rate 1, pos 5.788
+Sending back:
+  limit hit
+  motSpeed: 0.45
+  walk2: 5.788
+Received:
+  returning to home after limit switch hit
+
+----HARDWARE----
+Homing motor 1
+Motor 1 going b, rate 1, pos 5.788
+Motor 1 going s, rate 1, pos 2.769
+Motor is home
+Motor position as calculated: 2.77
+
+Beginning of finding shelf1
+
+----REMOTE STAIRS----
+Homing motor 1
+Motor 1 going b, rate 1, pos 0.0
+Motor 1 going s, rate 1, pos -0.0
+Motor is home
+Motor position as calculated: -0.0
+Motor 0 going s, rate 1, pos 3.77
+
+Starting dynamic QR search
+getCenter= False
+Motor 0 going f, rate 1, pos 3.77
+Confirm: leaving  ['S0000']
+Confirm: leaving  ['S0000']
+Confirm: leaving  ['S0000']
+Motor 0 going s, rate 1, pos 14.588
+Sending back:
+  qFound: ['S0001']
+  motSpeed: 1
+  walk2: 14.588
+Motor 0 going l, rate 1, pos 14.588
+
+----REMOTE WALK----
+
+----HARDWARE----
+Homing motor 1
+Motor 1 going b, rate 1, pos 0.0
+Motor 1 going s, rate 1, pos -0.0
+Motor is home
+Motor position as calculated: -0.0
+
+
+Starting finder cycle 0 on shelf 1
+
+----QR CODES----
+Motor 1 going s, rate 1, pos 0.0
+
+Starting dynamic QR search
+getCenter= False
+Motor 1 going f, rate 0.18, pos 0.0
+Confirm: leaving  ['S0001']
+Confirm: leaving  ['S0001']
+Motor 1 going s, rate 1, pos 1.667
+Sending back:
+  qFound: ['P0201']
+  motSpeed: 0.18
+  walk2: 1.667
+
+----CAMERA----
+
+New image going to /home/an/Documents/PlantShelf/daily/2021-03-02/qr [1,0:1.667]
+New image saved to /home/an/Documents/PlantShelf/daily/2021-03-02/qr [1,0:1.667].jpg
+
+----QR CODES----
+Starting static QR search
+P0201 (991,548)
+Centered items ['P0201']
+
+----REMOTE----
+
+Analyzing P0201
+
+----ANALYZE----
+Analyzing 1 0 P0201 /home/an/Documents/PlantShelf/daily/2021-03-02/qr [1,0:1.667].jpg
+
+----SQL PLANT----
+Updating P0201 at (1, 0)
+['2000', 'kale', '65', '2']
+plantSpot= 201
+oldName= kale
+
+----CAMERA----
+
+Calculating NDVI
+/home/an/Documents/PlantShelf/daily/2021-03-02/kale 201 (1, 0) mask 120.jpg
+
+Masking image /home/an/Documents/PlantShelf/daily/2021-03-02/kale 201 (1, 0).jpg
+NDVI = 0.01
+/home/an/Documents/PlantShelf/daily/2021-03-02/kale 201 (1, 0) ndvi 120 6.jpg
+
+----SQL PLANT----
+datArr= [50, 201, '2021-03-02', 0.006]
+
+Making history: (50, 201, '2021-03-02', 0.006)
+
+
+Starting finder cycle 1 on shelf 1
+
+----QR CODES----
+Motor 1 going s, rate 1, pos 1.667
+
+Starting dynamic QR search
+getCenter= False
+Motor 1 going f, rate 0.18, pos 1.667
+Confirm: leaving  ['P0201']
+Confirm: leaving  ['P0201']
+Motor 1 going s, rate 1, pos 2.626
+Sending back:
+  qFound: ['P0301']
+  motSpeed: 0.18
+  walk2: 2.626
+
+----CAMERA----
+
+New image going to /home/an/Documents/PlantShelf/daily/2021-03-02/qr [1,1:2.626]
+New image saved to /home/an/Documents/PlantShelf/daily/2021-03-02/qr [1,1:2.626].jpg
+
+----QR CODES----
+Starting static QR search
+P0301 (998,541)
+Centered items ['P0301']
+
+----REMOTE----
+
+Analyzing P0301
+ but it is inactive
+
+
+Starting finder cycle 2 on shelf 1
+
+----QR CODES----
+Motor 1 going s, rate 1, pos 2.626
+
+Starting dynamic QR search
+getCenter= False
+Motor 1 going f, rate 0.18, pos 2.626
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Motor 1 going f, rate 0.45, pos 3.423
+Walk speed increased to  0.45  near end of shelf.
+Confirm: leaving  ['P0301']
+Confirm: leaving  ['P0301']
+Motor 1 going s, rate 1, pos 4.884
+Sending back:
+  limit hit
+  motSpeed: 0.45
+  walk2: 4.884
+Received:
+  returning to home after limit switch hit
+
+----HARDWARE----
+Homing motor 1
+Motor 1 going b, rate 1, pos 4.884
+Motor 1 going s, rate 1, pos 1.865
+Motor is home
+Motor position as calculated: 1.86
+Homing motor 0
+Motor 0 going b, rate 1, pos 14.588
+Motor 0 going s, rate 1, pos 4.467
+Motor is home
+Motor position as calculated: 4.47
+
+Watering for 15 seconds
+Shoulder holding
+Shoulder released
+
+----FINAL----
+Tabling:
+l1 =
+[(0, 0, 'corn', 501), (0, 1, 'spinach', 401), (1, 0, 'kale', 201)]
+l2 =
+[(0, 0, 'corn', 501), (0, 1, 'spinach', 401), (1, 0, 'kale', 201)]
+v1 =
+[[0.01], [0.01]]
+v2 =
+[[0.001666666666666667], [0.005666666666666666]]
+(j0, i0)=(0, 0)
+(smax, pmax)=(1, 1)
+list index out of range
+list index out of range
